@@ -28,23 +28,6 @@ We built an **intelligent orchestrator** that:
 
 ---
 
-## Architecture Diagram (ASCII)
-
-User Query
-↓
-[Orchestrator Agent] → classifies intent → "hr" | "tech" | "finance"
-↓
-RunnableBranch
-├──→ HR RAG Agent → FAISS(hr_docs) → grounded answer
-├──→ Tech RAG Agent → FAISS(tech_docs) → grounded answer
-└──→ Finance RAG Agent → FAISS(finance_docs) → grounded answer
-↓
-[Evaluator Agent] → scores response (1–10) → Langfuse score
-↓
-Final Answer + Trace URL + Quality Score
-
----
-
 ## Technical Decisions & Justifications
 
 | Decision                            | Choice                                      | Justification                                                                                     |
@@ -60,35 +43,9 @@ Final Answer + Trace URL + Quality Score
 
 ---
 
-## Repository Structure
+## Real Langfuse Testing Evidence
 
-multi-agent-support-router/
-├── README.md                       ← This file
-├── requirements.txt                ← Pinned, stable dependencies
-├── .env.example                    ← Never commit real keys!
-├── test_queries.json               ← 12 real test cases
-├── langfuse_screenshots/           ← Proof of full observability
-│   ├── trace_example_1.png
-│   ├── trace_example_2.png
-│   ├── scores_dashboard.png
-│   └── evaluator_in_action.png
-├── src/
-│   ├── multi_agent_system.py       ← Main entry point
-│   └── agents/
-│       ├── orchestrator.py
-│       ├── hr_agent.py
-│       ├── tech_agent.py
-│       ├── finance_agent.py
-│       └── evaluator.py            ← Bonus feature
-├── data/
-│   ├── hr_docs/
-│   │   └── Company_Employee_Handbook_2025.txt     → ~62 chunks
-│   ├── tech_docs/
-│   │   └── IT_Policies_and_Procedures_2025.txt    → ~58 chunks
-│   └── finance_docs/
-│       └── Finance_and_Expense_Policy_2025.txt    → ~55 chunks
-└── vectorstores/                   ← Auto-created FAISS indexes (gitignored)
-
+A dedicated folder **langfuse_screenshots/** has been included in the repository containing real screenshots captured during testing. These images demonstrate end-to-end functionality: correct intent classification, successful routing to the appropriate specialized agent, relevant document chunks retrieved from FAISS, complete execution traces, and the bonus evaluator agent assigning quality scores (1–10) with justifications — all permanently recorded and visible in the Langfuse dashboard.
 
 ---
 
