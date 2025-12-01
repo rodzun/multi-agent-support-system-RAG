@@ -1,0 +1,382 @@
+# IT POLICIES AND PROCEDURES MANUAL 2025
+
+## 1. Acceptable Use Policy
+Company equipment and network are for business purposes. Limited personal use permitted if it does not interfere with work.
+Prohibited: streaming, gaming, torrenting, cryptocurrency mining, unauthorized software.
+
+## 2. Password and Authentication Policy
+- Minimum 12 characters, must include uppercase, lowercase, number, symbol.
+- No reuse of last 10 passwords.
+- Change required every 90 days.
+- MFA required on all cloud applications (email, ERP, VPN, GitHub).
+
+## 3. VPN and Remote Access
+- Cisco AnyConnect VPN required when off corporate network.
+- Auto-connect on public Wi-Fi.
+- Split tunneling disabled for security.
+
+## 4. Hardware Standards
+- Laptops: Windows 11 Pro or MacBook Pro (M2 or better), 16GB RAM minimum.
+- Lifecycle: 3 years, then refresh.
+- Lost/stolen devices: report to IT within 1 hour → remote wipe initiated.
+- Personal devices: not allowed for company data access.
+
+## 5. Helpdesk Service Level Agreement (SLA)
+- Priority 1 (system down): response <15 min, resolution <4 hours
+- Priority 2 (major impact): response <1 hour, resolution <8 hours
+- Priority 3 (individual): response <4 hours, resolution <2 business days
+- After-hours emergency: call +1-555-0199
+
+## 6. Software Installation and Licensing
+- All software must be approved by IT.
+- No personal or cracked software.
+- Requests submitted via ticket with business justification.
+- Adobe, Microsoft 365, Slack, Zoom: company-wide licenses.
+
+## 7. Data Backup and Recovery
+- Daily automated backups to AWS (encrypted).
+- Retention: 90 days rolling + yearly snapshots.
+- Critical systems RTO: <4 hours.
+- Employees must save files to OneDrive/SharePoint, not local desktop.
+
+## 8. Incident Response
+- Phishing/suspicious email: forward to phishing@company.com → do not click.
+- Ransomware: isolate device immediately, call IT emergency line.
+- Data breach: mandatory reporting to IT and Legal within 1 hour.
+
+## 9. Email and Collaboration Tools
+- Outlook quota: 100GB.
+- Personal use: minimal, no large attachments.
+- Shared mailboxes monitored for compliance.
+
+## 10. Asset Management
+- All equipment tagged and tracked in asset database.
+- Return required upon termination (within 3 days).
+- Damage/loss: employee may be responsible for replacement cost.
+
+## 11. Network Architecture and Security Segmentation
+The corporate network is designed using the Zero Trust model, separating systems by function and sensitivity.
+- **VLAN Segmentation:** All devices are segmented into dedicated VLANs: VLAN 10 (Employee Workstations), VLAN 20 (Guest Network), VLAN 30 (Server/Data Center), VLAN 40 (IoT/Printers).
+- **Inter-VLAN Communication:** Traffic between VLANs 10 and 30 is strictly audited and must pass through the Palo Alto Network firewall with explicit Layer 7 application rules defined. Deny-by-default is the enforced policy.
+- **Wireless Access:** The secure network (`Corp-Sec`) uses 802.1x authentication integrated with Active Directory. The guest network is isolated and throttled to 10 Mbps per user.
+
+## 12. Cloud Infrastructure Access and Management (AWS/Azure)
+Access to cloud environments hosting production data is highly restricted and logged.
+- **IAM Roles:** Direct user access to the AWS Console is disabled. Access is granted via federated Identity and Access Management (IAM) roles through Okta SSO, utilizing the principle of Least Privilege.
+- **Bastion Hosts:** SSH/RDP access to production instances (EC2) must only be performed through designated, hardened jump-servers (Bastion Hosts) located in a management subnet.
+- **Secret Management:** All database credentials, API keys, and sensitive configuration variables must be stored and accessed programmatically using **AWS Secrets Manager** or Azure Key Vault. Storing secrets in code repositories is strictly forbidden.
+
+## 13. Software Development Lifecycle (SDLC) and CI/CD
+Defines the mandated process for developing, testing, and deploying all proprietary software.
+- **Code Repository:** GitHub Enterprise is the mandated repository. All commits must be signed and associated with a valid Jira ticket number.
+- **Branching Strategy:** The GitFlow branching model is mandatory (main, develop, feature, hotfix). Direct commits to the `main` or `release` branches are strictly prohibited.
+- **CI/CD Pipeline:** All code deployments must run through the automated GitLab CI/CD pipeline, including unit tests, integration tests, and static code analysis (SAST) before merging to the `develop` branch.
+
+## 14. Static and Dynamic Application Security Testing (SAST/DAST)
+Ensuring security is built into the development process (DevSecOps).
+- **SAST Integration:** Static Code Analysis (using SonarQube) is run automatically on every Pull Request (PR). PRs with critical vulnerabilities (CVSS score > 7.0) will be automatically blocked from merging.
+- **DAST Scanning:** Dynamic Application Security Testing is run nightly against the Staging environment to identify runtime vulnerabilities (e.g., XSS, SQL Injection). Identified High-risk findings must be triaged within 24 hours.
+- **Vulnerability Remediation SLA:** Critical vulnerabilities must be patched and deployed within 7 calendar days. High severity within 15 days.
+
+## 15. Change Management Policy (CM)
+All changes to production environments must follow a formal, documented process.
+- **Change Request (CR):** Mandatory submission of a Change Request via the Service Now platform for all production-impacting changes, including patches, configuration updates, and deployments.
+- **Review Board:** All High-impact CRs must be reviewed and approved by the Change Advisory Board (CAB) every Tuesday morning. Emergency changes require verbal approval from the CTO and subsequent documentation within 24 hours.
+- **Rollback Plan:** Every CR must include a documented, tested rollback plan to ensure service restoration if the change fails.
+
+## 16. Disaster Recovery (DR) and Business Continuity Planning (BCP)
+Ensuring the resilience and availability of critical systems.
+- **RTO/RPO:** The Recovery Time Objective (RTO) for core business services is 4 hours. The Recovery Point Objective (RPO) is 15 minutes (max data loss).
+- **Failover:** Production services are configured for active-passive failover between AWS regions (US-East-1 and US-West-2). The failover drill is performed quarterly and documented.
+- **Data Integrity:** Database backups are tested monthly by performing a restoration to a non-production environment to verify data integrity and restoration procedures.
+
+## 17. Patch and Vulnerability Management
+Policies governing the timely application of security updates.
+- **Critical Patches:** OS and application patches addressing Critical vulnerabilities (e.g., zero-day exploits) must be applied within **48 hours** across all non-production environments and within **72 hours** in Production.
+- **Standard Patches:** Non-critical patches are deployed during the monthly maintenance window (the third Saturday of every month, 1:00 AM – 5:00 AM UTC).
+- **Scanning:** All servers and network devices are scanned weekly using Tenable Nessus, with reports automatically routed to the Security Operations Center (SOC).
+
+## 18. Logging, Monitoring, and Alerting
+Ensuring comprehensive observability for rapid incident detection.
+- **Logging Standard:** All applications and infrastructure components must log events to the centralized **Splunk** cluster. Logs must adhere to the standardized JSON format.
+- **Metric Collection:** Performance metrics (CPU, latency, error rates) are collected using **Datadog**. Custom business metrics are mandatory for all new features.
+- **Alert Tiers:** P1 (System Down) alerts automatically trigger PagerDuty notifications to the on-call engineer, requiring acknowledgment within 5 minutes. P2 alerts generate an immediate Jira ticket for the appropriate team.
+
+## 19. Data Handling and Classification
+Defines procedures for handling different types of organizational data.
+- **Data Tiers:** Data is classified as Public, Internal, Confidential, or Restricted (e.g., PII/PCI/PHI). Restricted data must only reside in encrypted storage volumes and never on employee local hard drives.
+- **Encryption:** All data at rest (databases, storage buckets) and data in transit (VPN, TLS 1.2 or higher) must be encrypted using approved AES-256 standards.
+- **Retention:** Customer PII (Personally Identifiable Information) must be purged from databases 7 years after the contract termination date, as per compliance mandates.
+
+## 20. Acceptable Use of Collaboration Tools
+Specific guidelines for using tools like Slack, Teams, and shared drives.
+- **External Sharing:** Sharing confidential data via external links (OneDrive/Google Drive external shares) is prohibited. Internal sharing must use security groups.
+- **Ephemeral Messaging:** While ephemeral messaging (Slack) is allowed, conversations regarding critical business decisions, financial transactions, or legal issues must be conducted via email for record-keeping purposes.
+- **Storage Limits:** Shared drives (SharePoint) have a maximum folder size of 5 TB. Users exceeding this limit will be notified by IT to archive old data.
+
+## 21. Database Security and Access Control
+Access to database systems must follow strict authentication and authorization protocols.
+- **Service Accounts:** Direct application access to databases must use dedicated, least-privileged service accounts, not generic credentials. Passwords for these accounts are rotated automatically every 30 days via a vault.
+- **DBA Access:** Database Administrator (DBA) access to production data is granted only via encrypted SSH tunnels and requires pre-approval for the duration of the required task (Just-In-Time Access).
+- **Encryption:** All sensitive columns (PII, financial data) must be encrypted at the column level within the database, in addition to disk-level encryption.
+
+## 22. Configuration Management and Infrastructure as Code (IaC)
+All infrastructure provisioning and configuration must be managed through code.
+- **Tooling:** **Terraform** is the mandatory tool for managing cloud infrastructure (AWS/Azure). **Ansible** is mandatory for configuring OS-level settings on virtual machines.
+- **State Files:** Terraform state files must be stored remotely in a secured S3 bucket (or equivalent) with versioning and encryption enabled. Direct manipulation of state files is prohibited.
+- **Code Review:** All changes to IaC (Terraform modules, Ansible playbooks) must go through mandatory peer review and approval on GitHub before merging to the main branch.
+
+## 23. Release Management and Deployment Strategies
+Defines the approved methods for deploying code to production with minimal downtime.
+- **Deployment Strategy:** Blue/Green or Canary deployment strategies are mandatory for all core services to minimize risk. Rolling updates are allowed only for minor, non-critical services.
+- **Gating:** A dedicated Quality Assurance (QA) engineer must provide a formal sign-off (a "gate") in the CI/CD pipeline before any deployment can proceed to the Production environment.
+- **Load Testing:** All major releases (those including new features or significant architectural changes) must undergo load testing in the Staging environment to simulate 150% of peak production traffic.
+
+## 24. End-of-Life (EoL) and Obsolescence Policy
+Manages the removal of outdated hardware, software, and services.
+- **EoL Review:** IT performs a quarterly review of all production software dependencies to identify components approaching End-of-Life (EoL).
+- **Remediation SLA:** Software identified as EoL (no longer receiving security patches) must be upgraded or decommissioned within 90 days. Critical EoL components require immediate plan submission to the CTO.
+- **Hardware Disposal:** All retired hardware (laptops, servers) must undergo a three-pass physical data wipe or degaussing before being disposed of by a certified electronics recycling vendor.
+
+## 25. Third-Party Vendor Security Assessment
+Governs the security review of external software providers.
+- **Security Vetting:** Before onboarding any new SaaS or IaaS vendor, a mandatory security questionnaire (e.g., SIG/CAIQ) must be completed and reviewed by the Security team.
+- **Access Management:** Vendor access to internal systems must be granted via time-limited, segregated accounts and must be revoked immediately upon contract termination.
+- **Compliance Documentation:** Vendors handling restricted data (PII, financial) must provide SOC 2 Type II reports, ISO 27001 certification, or equivalent documentation annually.
+
+## 26. Security Auditing and Penetration Testing
+Periodic validation of the security posture against external threats.
+- **External Pen Testing:** A full external penetration test must be conducted annually by an independent third-party vendor on all public-facing applications and network perimeters.
+- **Internal Audit:** Internal audits targeting specific high-risk areas (e.g., cloud configuration, firewall rules) are performed semi-annually.
+- **Remediation Tracking:** All findings from penetration tests are logged as high-priority tickets in Jira, with a mandatory deadline for completion set by the CISO.
+
+## 27. Network Monitoring and Intrusion Detection Systems (IDS)
+Systems deployed to actively watch for and alert on malicious activity.
+- **IDS Deployment:** Intrusion Detection Systems (IDS/IPS) are deployed at the network perimeter and internal choke points to monitor for known attack signatures and anomalous behavior.
+- **Alert Triage:** All high-severity IDS alerts are funneled directly to the 24/7 Security Operations Center (SOC) team for immediate triage and response. The false positive rate target is below 5%.
+- **Packet Capture (PCAP):** Full packet capture logging is enabled on key network segments for forensic analysis during incident response.
+
+## 28. API Security and Access Control
+Policies governing the design and deployment of Application Programming Interfaces (APIs).
+- **Authentication:** All external APIs must use OAuth 2.0 or modern token-based authentication. API keys are strictly forbidden for user authentication.
+- **Rate Limiting:** Mandatory rate limiting must be implemented on all public and authenticated API endpoints to prevent Denial-of-Service (DoS) attacks.
+- **Input Validation:** Strict input validation and sanitization must be performed on all API inputs to mitigate injection attacks (e.g., SQL, JSON).
+
+## 29. Telephony and Voice over IP (VoIP) Security
+Security measures for the corporate communication system.
+- **SIP Security:** All Session Initiation Protocol (SIP) endpoints must be secured using TLS encryption. Default or weak passwords on VoIP phones are prohibited.
+- **Call Recording:** Call recording for compliance purposes must be clearly announced to all parties and stored on an encrypted, segregated server for a minimum of 6 months.
+- **Network Separation:** The corporate VoIP system operates on a dedicated VLAN (VLAN 40) separate from both employee data and server segments to prevent lateral movement during an attack.
+
+## 30. IT Compliance and Regulatory Mapping
+Ensuring all technical controls map directly to regulatory requirements (e.g., PCI DSS, HIPAA, ISO 27001).
+- **Control Mapping:** Each technical security control (e.g., MFA, encryption) must be mapped to the relevant clause in the compliance frameworks (e.g., PCI DSS Requirement 8, ISO 27001 A.9).
+- **Evidence Collection:** The Compliance team conducts automated and manual evidence collection (e.g., screen captures of firewall rules, system logs) monthly to support external audits.
+- **Risk Register:** A central IT Risk Register is maintained, detailing all identified risks, their likelihood and impact scores, and the mitigating technical controls deployed. This register is reviewed quarterly by the CISO and CTO.
+
+## 31. Acceptable Use Policy
+Company equipment and network are for business purposes. Limited personal use permitted if it does not interfere with work.
+Prohibited: streaming, gaming, torrenting, cryptocurrency mining, unauthorized software.
+
+## 32. Password and Authentication Policy
+- Minimum 12 characters, must include uppercase, lowercase, number, symbol.
+- No reuse of last 10 passwords.
+- Change required every 90 days.
+- MFA required on all cloud applications (email, ERP, VPN, GitHub).
+
+## 33. VPN and Remote Access
+- Cisco AnyConnect VPN required when off corporate network.
+- Auto-connect on public Wi-Fi.
+- Split tunneling disabled for security.
+
+## 34. Hardware Standards
+- Laptops: Windows 11 Pro or MacBook Pro (M2 or better), 16GB RAM minimum.
+- Lifecycle: 3 years, then refresh.
+- Lost/stolen devices: report to IT within 1 hour → remote wipe initiated.
+- Personal devices: not allowed for company data access.
+
+## 35. Helpdesk Service Level Agreement (SLA)
+- Priority 1 (system down): response <15 min, resolution <4 hours
+- Priority 2 (major impact): response <1 hour, resolution <8 hours
+- Priority 3 (individual): response <4 hours, resolution <2 business days
+- After-hours emergency: call +1-555-0199
+
+## 36. Software Installation and Licensing
+- All software must be approved by IT.
+- No personal or cracked software.
+- Requests submitted via ticket with business justification.
+- Adobe, Microsoft 365, Slack, Zoom: company-wide licenses.
+
+## 37. Data Backup and Recovery
+- Daily automated backups to AWS (encrypted).
+- Retention: 90 days rolling + yearly snapshots.
+- Critical systems RTO: <4 hours.
+- Employees must save files to OneDrive/SharePoint, not local desktop.
+
+## 38. Incident Response
+- Phishing/suspicious email: forward to phishing@company.com → do not click.
+- Ransomware: isolate device immediately, call IT emergency line.
+- Data breach: mandatory reporting to IT and Legal within 1 hour.
+
+## 39. Email and Collaboration Tools
+- Outlook quota: 100GB.
+- Personal use: minimal, no large attachments.
+- Shared mailboxes monitored for compliance.
+
+## 40. Asset Management
+- All equipment tagged and tracked in asset database.
+- Return required upon termination (within 3 days).
+- Damage/loss: employee may be responsible for replacement cost.
+
+## 41. Network Architecture and Security Segmentation
+The corporate network is designed using the Zero Trust model, separating systems by function and sensitivity.
+- **VLAN Segmentation:** All devices are segmented into dedicated VLANs: VLAN 10 (Employee Workstations), VLAN 20 (Guest Network), VLAN 30 (Server/Data Center), VLAN 40 (IoT/Printers).
+- **Inter-VLAN Communication:** Traffic between VLANs 10 and 30 is strictly audited and must pass through the Palo Alto Network firewall with explicit Layer 7 application rules defined. Deny-by-default is the enforced policy.
+- **Wireless Access:** The secure network (`Corp-Sec`) uses 802.1x authentication integrated with Active Directory. The guest network is isolated and throttled to 10 Mbps per user.
+
+## 42. Cloud Infrastructure Access and Management (AWS/Azure)
+Access to cloud environments hosting production data is highly restricted and logged.
+- **IAM Roles:** Direct user access to the AWS Console is disabled. Access is granted via federated Identity and Access Management (IAM) roles through Okta SSO, utilizing the principle of Least Privilege.
+- **Bastion Hosts:** SSH/RDP access to production instances (EC2) must only be performed through designated, hardened jump-servers (Bastion Hosts) located in a management subnet.
+- **Secret Management:** All database credentials, API keys, and sensitive configuration variables must be stored and accessed programmatically using **AWS Secrets Manager** or Azure Key Vault. Storing secrets in code repositories is strictly forbidden.
+
+## 43. Software Development Lifecycle (SDLC) and CI/CD
+Defines the mandated process for developing, testing, and deploying all proprietary software.
+- **Code Repository:** GitHub Enterprise is the mandated repository. All commits must be signed and associated with a valid Jira ticket number.
+- **Branching Strategy:** The GitFlow branching model is mandatory (main, develop, feature, hotfix). Direct commits to the `main` or `release` branches are strictly prohibited.
+- **CI/CD Pipeline:** All code deployments must run through the automated GitLab CI/CD pipeline, including unit tests, integration tests, and static code analysis (SAST) before merging to the `develop` branch.
+
+## 44. Static and Dynamic Application Security Testing (SAST/DAST)
+Ensuring security is built into the development process (DevSecOps).
+- **SAST Integration:** Static Code Analysis (using SonarQube) is run automatically on every Pull Request (PR). PRs with critical vulnerabilities (CVSS score > 7.0) will be automatically blocked from merging.
+- **DAST Scanning:** Dynamic Application Security Testing is run nightly against the Staging environment to identify runtime vulnerabilities (e.g., XSS, SQL Injection). Identified High-risk findings must be triaged within 24 hours.
+- **Vulnerability Remediation SLA:** Critical vulnerabilities must be patched and deployed within 7 calendar days. High severity within 15 days.
+
+## 45. Change Management Policy (CM)
+All changes to production environments must follow a formal, documented process.
+- **Change Request (CR):** Mandatory submission of a Change Request via the Service Now platform for all production-impacting changes, including patches, configuration updates, and deployments.
+- **Review Board:** All High-impact CRs must be reviewed and approved by the Change Advisory Board (CAB) every Tuesday morning. Emergency changes require verbal approval from the CTO and subsequent documentation within 24 hours.
+- **Rollback Plan:** Every CR must include a documented, tested rollback plan to ensure service restoration if the change fails.
+
+## 46. Disaster Recovery (DR) and Business Continuity Planning (BCP)
+Ensuring the resilience and availability of critical systems.
+- **RTO/RPO:** The Recovery Time Objective (RTO) for core business services is 4 hours. The Recovery Point Objective (RPO) is 15 minutes (max data loss).
+- **Failover:** Production services are configured for active-passive failover between AWS regions (US-East-1 and US-West-2). The failover drill is performed quarterly and documented.
+- **Data Integrity:** Database backups are tested monthly by performing a restoration to a non-production environment to verify data integrity and restoration procedures.
+
+## 47. Patch and Vulnerability Management
+Policies governing the timely application of security updates.
+- **Critical Patches:** OS and application patches addressing Critical vulnerabilities (e.g., zero-day exploits) must be applied within **48 hours** across all non-production environments and within **72 hours** in Production.
+- **Standard Patches:** Non-critical patches are deployed during the monthly maintenance window (the third Saturday of every month, 1:00 AM – 5:00 AM UTC).
+- **Scanning:** All servers and network devices are scanned weekly using Tenable Nessus, with reports automatically routed to the Security Operations Center (SOC).
+
+## 48. Logging, Monitoring, and Alerting
+Ensuring comprehensive observability for rapid incident detection.
+- **Logging Standard:** All applications and infrastructure components must log events to the centralized **Splunk** cluster. Logs must adhere to the standardized JSON format.
+- **Metric Collection:** Performance metrics (CPU, latency, error rates) are collected using **Datadog**. Custom business metrics are mandatory for all new features.
+- **Alert Tiers:** P1 (System Down) alerts automatically trigger PagerDuty notifications to the on-call engineer, requiring acknowledgment within 5 minutes. P2 alerts generate an immediate Jira ticket for the appropriate team.
+
+## 49. Data Handling and Classification
+Defines procedures for handling different types of organizational data.
+- **Data Tiers:** Data is classified as Public, Internal, Confidential, or Restricted (e.g., PII/PCI/PHI). Restricted data must only reside in encrypted storage volumes and never on employee local hard drives.
+- **Encryption:** All data at rest (databases, storage buckets) and data in transit (VPN, TLS 1.2 or higher) must be encrypted using approved AES-256 standards.
+- **Retention:** Customer PII (Personally Identifiable Information) must be purged from databases 7 years after the contract termination date, as per compliance mandates.
+
+## 50. Acceptable Use of Collaboration Tools
+Specific guidelines for using tools like Slack, Teams, and shared drives.
+- **External Sharing:** Sharing confidential data via external links (OneDrive/Google Drive external shares) is prohibited. Internal sharing must use security groups.
+- **Ephemeral Messaging:** While ephemeral messaging (Slack) is allowed, conversations regarding critical business decisions, financial transactions, or legal issues must be conducted via email for record-keeping purposes.
+- **Storage Limits:** Shared drives (SharePoint) have a maximum folder size of 5 TB. Users exceeding this limit will be notified by IT to archive old data.
+
+## 51. Database Security and Access Control
+Access to database systems must follow strict authentication and authorization protocols.
+- **Service Accounts:** Direct application access to databases must use dedicated, least-privileged service accounts, not generic credentials. Passwords for these accounts are rotated automatically every 30 days via a vault.
+- **DBA Access:** Database Administrator (DBA) access to production data is granted only via encrypted SSH tunnels and requires pre-approval for the duration of the required task (Just-In-Time Access).
+- **Encryption:** All sensitive columns (PII, financial data) must be encrypted at the column level within the database, in addition to disk-level encryption.
+
+## 52. Configuration Management and Infrastructure as Code (IaC)
+All infrastructure provisioning and configuration must be managed through code.
+- **Tooling:** **Terraform** is the mandatory tool for managing cloud infrastructure (AWS/Azure). **Ansible** is mandatory for configuring OS-level settings on virtual machines.
+- **State Files:** Terraform state files must be stored remotely in a secured S3 bucket (or equivalent) with versioning and encryption enabled. Direct manipulation of state files is prohibited.
+- **Code Review:** All changes to IaC (Terraform modules, Ansible playbooks) must go through mandatory peer review and approval on GitHub before merging to the main branch.
+
+## 53. Release Management and Deployment Strategies
+Defines the approved methods for deploying code to production with minimal downtime.
+- **Deployment Strategy:** Blue/Green or Canary deployment strategies are mandatory for all core services to minimize risk. Rolling updates are allowed only for minor, non-critical services.
+- **Gating:** A dedicated Quality Assurance (QA) engineer must provide a formal sign-off (a "gate") in the CI/CD pipeline before any deployment can proceed to the Production environment.
+- **Load Testing:** All major releases (those including new features or significant architectural changes) must undergo load testing in the Staging environment to simulate 150% of peak production traffic.
+
+## 54. End-of-Life (EoL) and Obsolescence Policy
+Manages the removal of outdated hardware, software, and services.
+- **EoL Review:** IT performs a quarterly review of all production software dependencies to identify components approaching End-of-Life (EoL).
+- **Remediation SLA:** Software identified as EoL (no longer receiving security patches) must be upgraded or decommissioned within 90 days. Critical EoL components require immediate plan submission to the CTO.
+- **Hardware Disposal:** All retired hardware (laptops, servers) must undergo a three-pass physical data wipe or degaussing before being disposed of by a certified electronics recycling vendor.
+
+## 55. Third-Party Vendor Security Assessment
+Governs the security review of external software providers.
+- **Security Vetting:** Before onboarding any new SaaS or IaaS vendor, a mandatory security questionnaire (e.g., SIG/CAIQ) must be completed and reviewed by the Security team.
+- **Access Management:** Vendor access to internal systems must be granted via time-limited, segregated accounts and must be revoked immediately upon contract termination.
+- **Compliance Documentation:** Vendors handling restricted data (PII, financial) must provide SOC 2 Type II reports, ISO 27001 certification, or equivalent documentation annually.
+
+## 56. Security Auditing and Penetration Testing
+Periodic validation of the security posture against external threats.
+- **External Pen Testing:** A full external penetration test must be conducted annually by an independent third-party vendor on all public-facing applications and network perimeters.
+- **Internal Audit:** Internal audits targeting specific high-risk areas (e.g., cloud configuration, firewall rules) are performed semi-annually.
+- **Remediation Tracking:** All findings from penetration tests are logged as high-priority tickets in Jira, with a mandatory deadline for completion set by the CISO.
+
+## 57. Network Monitoring and Intrusion Detection Systems (IDS)
+Systems deployed to actively watch for and alert on malicious activity.
+- **IDS Deployment:** Intrusion Detection Systems (IDS/IPS) are deployed at the network perimeter and internal choke points to monitor for known attack signatures and anomalous behavior.
+- **Alert Triage:** All high-severity IDS alerts are funneled directly to the 24/7 Security Operations Center (SOC) team for immediate triage and response. The false positive rate target is below 5%.
+- **Packet Capture (PCAP):** Full packet capture logging is enabled on key network segments for forensic analysis during incident response.
+
+## 58. API Security and Access Control
+Policies governing the design and deployment of Application Programming Interfaces (APIs).
+- **Authentication:** All external APIs must use OAuth 2.0 or modern token-based authentication. API keys are strictly forbidden for user authentication.
+- **Rate Limiting:** Mandatory rate limiting must be implemented on all public and authenticated API endpoints to prevent Denial-of-Service (DoS) attacks.
+- **Input Validation:** Strict input validation and sanitization must be performed on all API inputs to mitigate injection attacks (e.g., SQL, JSON).
+
+## 59. Telephony and Voice over IP (VoIP) Security
+Security measures for the corporate communication system.
+- **SIP Security:** All Session Initiation Protocol (SIP) endpoints must be secured using TLS encryption. Default or weak passwords on VoIP phones are prohibited.
+- **Call Recording:** Call recording for compliance purposes must be clearly announced to all parties and stored on an encrypted, segregated server for a minimum of 6 months.
+- **Network Separation:** The corporate VoIP system operates on a dedicated VLAN (VLAN 40) separate from both employee data and server segments to prevent lateral movement during an attack.
+
+## 60. IT Compliance and Regulatory Mapping
+Ensuring all technical controls map directly to regulatory requirements (e.g., PCI DSS, HIPAA, ISO 27001).
+- **Control Mapping:** Each technical security control (e.g., MFA, encryption) must be mapped to the relevant clause in the compliance frameworks (e.g., PCI DSS Requirement 8, ISO 27001 A.9).
+- **Evidence Collection:** The Compliance team conducts automated and manual evidence collection (e.g., screen captures of firewall rules, system logs) monthly to support external audits.
+- **Risk Register:** A central IT Risk Register is maintained, detailing all identified risks, their likelihood and impact scores, and the mitigating technical controls deployed. This register is reviewed quarterly by the CISO and CTO.
+
+## 61. Network Architecture and Security Segmentation
+The corporate network is designed using the Zero Trust model, separating systems by function and sensitivity.
+- **VLAN Segmentation:** All devices are segmented into dedicated VLANs: VLAN 10 (Employee Workstations), VLAN 20 (Guest Network), VLAN 30 (Server/Data Center), VLAN 40 (IoT/Printers).
+- **Inter-VLAN Communication:** Traffic between VLANs 10 and 30 is strictly audited and must pass through the Palo Alto Network firewall with explicit Layer 7 application rules defined. Deny-by-default is the enforced policy.
+- **Wireless Access:** The secure network (`Corp-Sec`) uses 802.1x authentication integrated with Active Directory. The guest network is isolated and throttled to 10 Mbps per user.
+
+## 62. Cloud Infrastructure Access and Management (AWS/Azure)
+Access to cloud environments hosting production data is highly restricted and logged.
+- **IAM Roles:** Direct user access to the AWS Console is disabled. Access is granted via federated Identity and Access Management (IAM) roles through Okta SSO, utilizing the principle of Least Privilege.
+- **Bastion Hosts:** SSH/RDP access to production instances (EC2) must only be performed through designated, hardened jump-servers (Bastion Hosts) located in a management subnet.
+- **Secret Management:** All database credentials, API keys, and sensitive configuration variables must be stored and accessed programmatically using **AWS Secrets Manager** or Azure Key Vault. Storing secrets in code repositories is strictly forbidden.
+
+## 63. Software Development Lifecycle (SDLC) and CI/CD
+Defines the mandated process for developing, testing, and deploying all proprietary software.
+- **Code Repository:** GitHub Enterprise is the mandated repository. All commits must be signed and associated with a valid Jira ticket number.
+- **Branching Strategy:** The GitFlow branching model is mandatory (main, develop, feature, hotfix). Direct commits to the `main` or `release` branches are strictly prohibited.
+- **CI/CD Pipeline:** All code deployments must run through the automated GitLab CI/CD pipeline, including unit tests, integration tests, and static code analysis (SAST) before merging to the `develop` branch.
+
+## 64. Static and Dynamic Application Security Testing (SAST/DAST)
+Ensuring security is built into the development process (DevSecOps).
+- **SAST Integration:** Static Code Analysis (using SonarQube) is run automatically on every Pull Request (PR). PRs with critical vulnerabilities (CVSS score > 7.0) will be automatically blocked from merging.
+- **DAST Scanning:** Dynamic Application Security Testing is run nightly against the Staging environment to identify runtime vulnerabilities (e.g., XSS, SQL Injection). Identified High-risk findings must be triaged within 24 hours.
+- **Vulnerability Remediation SLA:** Critical vulnerabilities must be patched and deployed within 7 calendar days. High severity within 15 days.
+
+## 65. Change Management Policy (CM)
+All changes to production environments must follow a formal, documented process.
+- **Change Request (CR):** Mandatory submission of a Change Request via the Service Now platform for all production-impacting changes, including patches, configuration updates, and deployments.
+- **Review Board:** All High-impact CRs must be reviewed and approved by the Change Advisory Board (CAB) every Tuesday morning. Emergency changes require verbal approval from the CTO and subsequent documentation within 24 hours.
+- **Rollback Plan:** Every CR must include a documented, tested rollback plan to ensure service restoration if the change fails.
+
+
+(End of IT Policies – Last updated: December 2025)

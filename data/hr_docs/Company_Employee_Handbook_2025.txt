@@ -1,0 +1,395 @@
+# COMPANY EMPLOYEE HANDBOOK 2025
+# Effective January 1, 2025
+
+## 1. Welcome and Company Values
+We are committed to excellence, integrity, respect, and innovation. All employees are expected to uphold these values in daily interactions.
+
+## 2. Vacation and Paid Time Off (PTO)
+Full-time employees receive 20 days of PTO per year (accrued monthly at 1.67 days). Part-time employees receive pro-rated PTO.
+- New hires: begin accruing from day one, usable after 90 days.
+- Requests: must be submitted in the HR portal at least 14 days in advance.
+- Approval: based on business needs and seniority.
+- Carryover: maximum 5 days allowed into the next year.
+- Payout upon termination: all accrued unused PTO is paid at final paycheck.
+- Company holidays: 11 paid federal holidays + 2 floating holidays.
+
+## 3. Sick Leave and Medical Leave
+- 10 days of paid sick leave per year (no carryover).
+- Doctor's note required after 3 consecutive days.
+- FMLA: up to 12 weeks unpaid, job-protected leave for serious health conditions.
+- Short-term disability: 60% salary replacement after 7-day waiting period.
+
+## 4. Parental and Family Leave
+- Birth mothers: 12 weeks fully paid maternity leave.
+- Non-birth parents/partners: 8 weeks fully paid.
+- Adoption/foster placement: 12 weeks paid.
+- Eligibility: after 12 months of service.
+
+## 5. Remote and Hybrid Work Policy
+- Hybrid eligible after 6 months of employment.
+- Core collaboration hours: 10:00 AM – 3:00 PM local time.
+- Equipment: company provides laptop, monitor, and keyboard.
+- Internet stipend: $50/month (taxable).
+- Home office setup reimbursement: up to $500 one-time.
+
+## 6. Performance Reviews and Compensation
+- Annual reviews: December each year.
+- Rating scale: 1–5 (5 = significantly exceeds).
+- Mid-year check-ins: mandatory in June.
+- Salary increases: effective January 1, based on performance and market data.
+- Annual bonus: 8–15% of base salary, paid in February, tied to company and individual performance.
+
+## 7. Health Benefits
+- Medical, dental, and vision coverage effective day 1.
+- Company pays 80% of employee premium, 60% for dependents.
+- HSA contribution: company seeds $1,000/year for high-deductible plans.
+- 401(k): 5% match, fully vested after 3 years.
+- Life insurance: 2x annual salary, company-paid.
+
+## 8. Code of Conduct and Anti-Harassment
+Zero tolerance for harassment, discrimination, bullying, or retaliation.
+- Report to HR, manager, or anonymous hotline.
+- All reports investigated within 48 hours.
+- Confidentiality maintained whenever possible.
+- Violations may result in termination.
+
+## 9. Onboarding and Probation
+- First day: orientation, IT setup, policy acknowledgment.
+- 90-day introductory period: performance and fit evaluated.
+- Training: mandatory compliance and role-specific courses.
+
+## 10. Learning and Development
+- $3,000 annual tuition reimbursement for job-related education.
+- Unlimited LinkedIn Learning access.
+- Internal mentorship program available.
+
+## 11. Compensation Philosophy and Salary Review
+The company is committed to market competitiveness, internal equity, and performance-based rewards.
+- **Salary Benchmarking:** Compensation bands are reviewed annually in Q4 using data from three major market compensation surveys (e.g., Radford, Mercer) to ensure pay is benchmarked at the 60th percentile of the relevant market.
+- **Annual Merit Cycle:** Salary increases are distributed once per year, effective January 1st, based on the performance review rating (Section 6) and the position within the salary band. Employees at the top of their band may receive a one-time lump-sum bonus instead of a base salary increase.
+- **Job Classification:** All roles are classified into a job family and level (e.g., Engineer I, Engineer II, Senior Engineer) which determines the compensation band. Any change in role responsibilities must be documented and reviewed by HR for reclassification.
+
+## 12. Employee Referral Program and Incentives
+We encourage employees to refer qualified candidates, offering financial incentives for successful hires.
+- **Referral Bonus Amount:** A bonus of **$2,500 USD** is paid to the referring employee for any successful full-time hire who passes their 6-month probation period.
+- **Payment Schedule:** The bonus is paid in the first payroll cycle following the referred employee's 6-month anniversary date.
+- **Eligibility:** Referrals must be submitted through the dedicated HR Referral Portal *before* the candidate applies or is contacted by the Talent Acquisition team. The program excludes Executive Leadership and HR personnel involved in the hiring process.
+
+## 13. Training and Professional Development Funding
+The company supports continuous learning related to job functions and career growth.
+- **Tuition Reimbursement:** Up to **$3,000 USD** is available annually for external degree programs, certifications, or specialized courses related to the employee’s current or anticipated future role. Approval is required from both the direct manager and HR.
+- **Repayment Clause:** If an employee voluntarily resigns within 12 months of receiving a tuition reimbursement payment, they are obligated to repay the full amount.
+- **Internal Resources:** In addition to tuition, the company funds unlimited access to online learning platforms (e.g., Coursera, Udemy) and covers the cost of one industry conference registration per employee per year.
+
+## 14. Performance Improvement Plans (PIP)
+When an employee’s performance consistently falls below expectations (typically a rating of 1 or 2), a formal PIP is initiated.
+- **Duration:** A standard PIP lasts **60 days** and includes measurable goals, milestones, and required behaviors.
+- **Procedure:** The manager, in consultation with HR, documents the performance gap and required improvements. Weekly mandatory check-ins are held.
+- **Outcome:** Successful completion results in the employee returning to good standing. Failure to meet the goals may lead to termination of employment (Section 19).
+
+## 15. Employee Grievance Procedure
+Employees have the right to raise workplace concerns without fear of retaliation.
+- **Level 1:** Discussion with the direct manager to seek resolution within 5 business days.
+- **Level 2:** If unresolved, the issue is submitted in writing to the next-level manager and an HR Business Partner. HR initiates a fact-finding investigation.
+- **Level 3:** If the grievance is still unresolved, it is submitted to the VP of Human Resources for a final, non-binding internal decision. Issues related to discrimination or harassment bypass Level 1.
+
+## 16. Workplace Health and Safety (Occupational Health)
+The company is committed to providing a safe and healthy working environment, both in the office and during remote work.
+- **Injury Reporting:** All work-related injuries, no matter how minor, must be immediately reported to the manager and HR, and an Incident Report Form must be completed within 24 hours.
+- **Ergonomics:** Employees are eligible for a free ergonomic assessment of their workspace (remote or office) by a certified professional. Adjustments or recommendations will be provided by HR to prevent musculoskeletal strain.
+- **Emergency Contact:** HR maintains an updated list of emergency contacts for all employees, which must be verified and updated in the HR portal annually.
+
+## 17. Exit Interview and Offboarding Process
+The offboarding process ensures a smooth transition and secures company assets.
+- **Exit Interview:** A confidential interview is conducted by an HR representative upon resignation to gather feedback on the employee experience. Participation is voluntary.
+- **Continuation of Benefits:** Employees are provided information regarding their eligibility for continued health coverage (e.g., COBRA in the US, or equivalent local social security benefits) upon separation.
+- **Final Paycheck:** The final paycheck includes all wages earned up to the last day of employment plus payment for any accrued unused PTO (where legally mandated).
+
+## 18. Immigration and Sponsorship Policy
+The company complies with all immigration laws and is committed to supporting its international talent.
+- **Sponsorship:** Sponsorship for specific work visas (e.g., H-1B, L-1, specialized local visas) is provided on a case-by-case basis for roles deemed business-critical and where local talent is unavailable.
+- **Green Card/Permanent Residency:** Support for permanent residency applications is considered after a minimum of 12 months of service and is subject to departmental budget approval and legal counsel review. Employees are typically responsible for their dependents' application fees.
+
+## 19. Disciplinary Action and Termination Protocol
+The Company follows a progressive discipline approach for most performance or conduct issues:
+1.  **Counseling/Verbal Warning:** Informal discussion documenting the issue.
+2.  **Written Warning:** Formal documentation detailing corrective action and consequences.
+3.  **Final Written Warning/Suspension:** Last opportunity for correction, often accompanied by temporary suspension.
+4.  **Termination:** End of employment.
+- **Gross Misconduct:** Severe infractions (e.g., theft, fraud, violence, violation of the anti-harassment policy) warrant immediate termination without requiring prior warnings.
+
+## 20. Diversity, Equity, and Inclusion (DEI) Guidelines
+We foster an inclusive environment where all employees can reach their full potential.
+- **Unconscious Bias Training:** Mandatory training on unconscious bias is required annually for all employees, and bi-annually for all managers and interviewers.
+- **Employee Resource Groups (ERGs):** The company supports and provides funding (up to $1,500 USD annually per group) for employee-led ERGs that promote cultural awareness and support underrepresented groups.
+- **Pay Equity Audit:** An annual independent audit is conducted to analyze compensation data across gender, race, and ethnicity to identify and promptly address any unexplained pay disparities.
+
+## 21. HR Information System (HRIS) Usage and Self-Service
+The Company's official talent management and employee administration system is **Workday**. All employees must be familiar with its functions.
+- **Self-Service Obligations:** It is the employee’s responsibility to keep their personal and emergency contact information (address, phone number, marital status, benefit beneficiaries) up-to-date in the Workday portal.
+- **Document Access:** Employees must use Workday to download pay stubs, W-2 forms (or local equivalents), the annual benefits summary, and tax documents.
+- **Absence Management:** All Paid Time Off (PTO) and Sick Leave requests must be registered and approved by the manager within Workday. Requests submitted via email or verbally are not accepted.
+
+## 22. Employee Data Privacy and Record Retention Policy
+The Company complies with global privacy regulations such as GDPR, CCPA, and equivalent local laws.
+- **Consent:** By signing the employment contract, the employee consents to the processing of personal data necessary for payroll, benefits, and HR administration.
+- **Retention:** Payroll and tax records are retained for 7 years. Performance and disciplinary records are retained for 5 years after separation. Unsuccessful candidate resumes are deleted after 12 months.
+- **Monitoring:** The use of corporate email, Slack, and company devices is subject to monitoring for compliance and security purposes. There is no expectation of privacy on these systems.
+
+## 23. Detailed Formal Grievance and Complaint Procedure
+This protocol ensures an impartial investigation of all complaints that do not involve harassment (covered in Section 8).
+1. **Formal Submission:** The complaint must be submitted in writing to the Human Resources Manager or the Department Director. It must include specific dates, names, and a detailed description of the incident.
+2. **Investigation Timeline:** HR will acknowledge receipt of the complaint within 2 business days and initiate a full fact-finding investigation within 5 business days.
+3. **Right to Representation:** The employee has the right to a non-legal representative (e.g., a peer or an ERG member) during investigation interviews.
+4. **Final Decision:** HR will issue a written final decision to the complainant within 15 business days after concluding the investigation.
+
+## 24. Flexible Work Arrangements and Compressed Schedule Agreements
+The Company may approve alternative work arrangements to support work-life balance.
+- **Flexible Schedule:** Employees may request to flex their start/end time by +/- 1 hour (e.g., 8:00 to 17:00 or 10:00 to 19:00), provided they cover the core collaboration hours (10:00 to 15:00).
+- **Compressed Schedule Eligibility:** Only employees with above-average performance and 12 months of tenure are eligible to request a compressed schedule (e.g., 4 days of 10 hours). All approvals are quarterly and not guaranteed.
+- **Agreement Termination:** The Company reserves the right to terminate any flexible work agreement with 14 days' notice if it negatively impacts team performance or operational needs.
+
+## 25. Relocation and Internal Transfer Policy
+HR manages all geographic and departmental talent transfers.
+- **Company-Initiated Transfer:** The Company will cover 100% of approved relocation costs (moving, travel, 30-day temporary housing, and spouse job search assistance) to meet a business need.
+- **Employee-Initiated Transfer:** An employee may request an internal transfer to another location after 18 months in their current role. The Company will only grant a fixed relocation stipend of $5,000 USD, with the remaining costs being the employee's responsibility.
+- **Salary Adjustment:** Salary will be adjusted to the new geographic location's pay band, which may result in an increase or decrease in base pay to reflect the local Cost of Living (COL).
+
+## 26. Talent Retention Procedures and Counter-Offers
+HR seeks to retain high-performing employees.
+- **Counter-Offer Criteria:** Counter-offers will only be considered for employees who: 1) Have an "Significantly Exceeds" or "Exceptional" rating in their last two reviews, 2) Are below the 50th percentile of their salary band, and 3) Are identified as critical talent by the Executive Committee.
+- **Exclusion:** Counter-offers will not be issued for retention to employees with recent disciplinary history (last 18 months). The final decision rests with the CFO and the Head of HR.
+
+## 27. Company Vehicle Usage and Fleet Safety Policy
+Vehicles may only be used by authorized employees for strictly business purposes.
+- **Maintenance:** The employee is responsible for daily maintenance and immediately reporting any damage. The Company covers all fuel and insurance costs.
+- **Personal Use:** Personal use is strictly prohibited, except for commuting from home to the office if the vehicle is assigned. Use by family members is prohibited.
+
+## 28. Human Resources Review and Calibration Committees
+Talent management and compensation are reviewed through formal committees.
+- **Calibration Committee:** Meets twice a year (June and December) to ensure fairness in performance ratings and prevent departmental bias.
+- **Compensation Committee:** Reviews and approves all salary increase and bonus proposals that exceed 10% of the salary band midpoint.
+- **Succession Planning Committee:** Annually identifies and develops high-potential (HiPo) employees for key leadership roles, with development plans overseen by the Head of HR.
+
+## 29. Drug and Alcohol Policy in the Workplace
+The Company maintains a drug and alcohol-free workplace.
+- **Testing:** The Company reserves the right to conduct drug and alcohol testing on employees in safety-sensitive roles or following a workplace accident.
+- **Consumption:** Working under the influence of any substance that impairs safe performance is prohibited. Alcohol consumption is only permitted at approved corporate events and must be moderate.
+
+## 30. Sustainability and Corporate Social Responsibility (CSR) Guidelines
+HR facilitates employee participation in CSR initiatives.
+- **Volunteering:** Employees receive 2 paid days off per year to participate in volunteer activities of their choice, subject to prior NGO approval.
+- **Coordination:** HR coordinates the CSR committee and organizes annual fundraising events and donation drives.
+
+## 31. Welcome and Company Values
+We are committed to excellence, integrity, respect, and innovation. All employees are expected to uphold these values in daily interactions.
+
+## 32. Vacation and Paid Time Off (PTO)
+Full-time employees receive 20 days of PTO per year (accrued monthly at 1.67 days). Part-time employees receive pro-rated PTO.
+- New hires: begin accruing from day one, usable after 90 days.
+- Requests: must be submitted in the HR portal at least 14 days in advance.
+- Approval: based on business needs and seniority.
+- Carryover: maximum 5 days allowed into the next year.
+- Payout upon termination: all accrued unused PTO is paid at final paycheck.
+- Company holidays: 11 paid federal holidays + 2 floating holidays.
+
+## 33. Sick Leave and Medical Leave
+- 10 days of paid sick leave per year (no carryover).
+- Doctor's note required after 3 consecutive days.
+- FMLA: up to 12 weeks unpaid, job-protected leave for serious health conditions.
+- Short-term disability: 60% salary replacement after 7-day waiting period.
+
+## 34. Parental and Family Leave
+- Birth mothers: 12 weeks fully paid maternity leave.
+- Non-birth parents/partners: 8 weeks fully paid.
+- Adoption/foster placement: 12 weeks paid.
+- Eligibility: after 12 months of service.
+
+## 35. Remote and Hybrid Work Policy
+- Hybrid eligible after 6 months of employment.
+- Core collaboration hours: 10:00 AM – 3:00 PM local time.
+- Equipment: company provides laptop, monitor, and keyboard.
+- Internet stipend: $50/month (taxable).
+- Home office setup reimbursement: up to $500 one-time.
+
+## 36. Performance Reviews and Compensation
+- Annual reviews: December each year.
+- Rating scale: 1–5 (5 = significantly exceeds).
+- Mid-year check-ins: mandatory in June.
+- Salary increases: effective January 1, based on performance and market data.
+- Annual bonus: 8–15% of base salary, paid in February, tied to company and individual performance.
+
+## 37. Health Benefits
+- Medical, dental, and vision coverage effective day 1.
+- Company pays 80% of employee premium, 60% for dependents.
+- HSA contribution: company seeds $1,000/year for high-deductible plans.
+- 401(k): 5% match, fully vested after 3 years.
+- Life insurance: 2x annual salary, company-paid.
+
+## 38. Code of Conduct and Anti-Harassment
+Zero tolerance for harassment, discrimination, bullying, or retaliation.
+- Report to HR, manager, or anonymous hotline.
+- All reports investigated within 48 hours.
+- Confidentiality maintained whenever possible.
+- Violations may result in termination.
+
+## 39. Onboarding and Probation
+- First day: orientation, IT setup, policy acknowledgment.
+- 90-day introductory period: performance and fit evaluated.
+- Training: mandatory compliance and role-specific courses.
+
+## 40. Learning and Development
+- $3,000 annual tuition reimbursement for job-related education.
+- Unlimited LinkedIn Learning access.
+- Internal mentorship program available.
+
+## 41. Compensation Philosophy and Salary Review
+The company is committed to market competitiveness, internal equity, and performance-based rewards.
+- **Salary Benchmarking:** Compensation bands are reviewed annually in Q4 using data from three major market compensation surveys (e.g., Radford, Mercer) to ensure pay is benchmarked at the 60th percentile of the relevant market.
+- **Annual Merit Cycle:** Salary increases are distributed once per year, effective January 1st, based on the performance review rating (Section 6) and the position within the salary band. Employees at the top of their band may receive a one-time lump-sum bonus instead of a base salary increase.
+- **Job Classification:** All roles are classified into a job family and level (e.g., Engineer I, Engineer II, Senior Engineer) which determines the compensation band. Any change in role responsibilities must be documented and reviewed by HR for reclassification.
+
+## 42. Employee Referral Program and Incentives
+We encourage employees to refer qualified candidates, offering financial incentives for successful hires.
+- **Referral Bonus Amount:** A bonus of **$2,500 USD** is paid to the referring employee for any successful full-time hire who passes their 6-month probation period.
+- **Payment Schedule:** The bonus is paid in the first payroll cycle following the referred employee's 6-month anniversary date.
+- **Eligibility:** Referrals must be submitted through the dedicated HR Referral Portal *before* the candidate applies or is contacted by the Talent Acquisition team. The program excludes Executive Leadership and HR personnel involved in the hiring process.
+
+## 43. Training and Professional Development Funding
+The company supports continuous learning related to job functions and career growth.
+- **Tuition Reimbursement:** Up to **$3,000 USD** is available annually for external degree programs, certifications, or specialized courses related to the employee’s current or anticipated future role. Approval is required from both the direct manager and HR.
+- **Repayment Clause:** If an employee voluntarily resigns within 12 months of receiving a tuition reimbursement payment, they are obligated to repay the full amount.
+- **Internal Resources:** In addition to tuition, the company funds unlimited access to online learning platforms (e.g., Coursera, Udemy) and covers the cost of one industry conference registration per employee per year.
+
+## 44. Performance Improvement Plans (PIP)
+When an employee’s performance consistently falls below expectations (typically a rating of 1 or 2), a formal PIP is initiated.
+- **Duration:** A standard PIP lasts **60 days** and includes measurable goals, milestones, and required behaviors.
+- **Procedure:** The manager, in consultation with HR, documents the performance gap and required improvements. Weekly mandatory check-ins are held.
+- **Outcome:** Successful completion results in the employee returning to good standing. Failure to meet the goals may lead to termination of employment (Section 19).
+
+## 45. Employee Grievance Procedure
+Employees have the right to raise workplace concerns without fear of retaliation.
+- **Level 1:** Discussion with the direct manager to seek resolution within 5 business days.
+- **Level 2:** If unresolved, the issue is submitted in writing to the next-level manager and an HR Business Partner. HR initiates a fact-finding investigation.
+- **Level 3:** If the grievance is still unresolved, it is submitted to the VP of Human Resources for a final, non-binding internal decision. Issues related to discrimination or harassment bypass Level 1.
+
+## 46. Workplace Health and Safety (Occupational Health)
+The company is committed to providing a safe and healthy working environment, both in the office and during remote work.
+- **Injury Reporting:** All work-related injuries, no matter how minor, must be immediately reported to the manager and HR, and an Incident Report Form must be completed within 24 hours.
+- **Ergonomics:** Employees are eligible for a free ergonomic assessment of their workspace (remote or office) by a certified professional. Adjustments or recommendations will be provided by HR to prevent musculoskeletal strain.
+- **Emergency Contact:** HR maintains an updated list of emergency contacts for all employees, which must be verified and updated in the HR portal annually.
+
+## 47. Exit Interview and Offboarding Process
+The offboarding process ensures a smooth transition and secures company assets.
+- **Exit Interview:** A confidential interview is conducted by an HR representative upon resignation to gather feedback on the employee experience. Participation is voluntary.
+- **Continuation of Benefits:** Employees are provided information regarding their eligibility for continued health coverage (e.g., COBRA in the US, or equivalent local social security benefits) upon separation.
+- **Final Paycheck:** The final paycheck includes all wages earned up to the last day of employment plus payment for any accrued unused PTO (where legally mandated).
+
+## 48. Immigration and Sponsorship Policy
+The company complies with all immigration laws and is committed to supporting its international talent.
+- **Sponsorship:** Sponsorship for specific work visas (e.g., H-1B, L-1, specialized local visas) is provided on a case-by-case basis for roles deemed business-critical and where local talent is unavailable.
+- **Green Card/Permanent Residency:** Support for permanent residency applications is considered after a minimum of 12 months of service and is subject to departmental budget approval and legal counsel review. Employees are typically responsible for their dependents' application fees.
+
+## 49. Disciplinary Action and Termination Protocol
+The Company follows a progressive discipline approach for most performance or conduct issues:
+1.  **Counseling/Verbal Warning:** Informal discussion documenting the issue.
+2.  **Written Warning:** Formal documentation detailing corrective action and consequences.
+3.  **Final Written Warning/Suspension:** Last opportunity for correction, often accompanied by temporary suspension.
+4.  **Termination:** End of employment.
+- **Gross Misconduct:** Severe infractions (e.g., theft, fraud, violence, violation of the anti-harassment policy) warrant immediate termination without requiring prior warnings.
+
+## 50. Diversity, Equity, and Inclusion (DEI) Guidelines
+We foster an inclusive environment where all employees can reach their full potential.
+- **Unconscious Bias Training:** Mandatory training on unconscious bias is required annually for all employees, and bi-annually for all managers and interviewers.
+- **Employee Resource Groups (ERGs):** The company supports and provides funding (up to $1,500 USD annually per group) for employee-led ERGs that promote cultural awareness and support underrepresented groups.
+- **Pay Equity Audit:** An annual independent audit is conducted to analyze compensation data across gender, race, and ethnicity to identify and promptly address any unexplained pay disparities.
+
+## 51. HR Information System (HRIS) Usage and Self-Service
+The Company's official talent management and employee administration system is **Workday**. All employees must be familiar with its functions.
+- **Self-Service Obligations:** It is the employee’s responsibility to keep their personal and emergency contact information (address, phone number, marital status, benefit beneficiaries) up-to-date in the Workday portal.
+- **Document Access:** Employees must use Workday to download pay stubs, W-2 forms (or local equivalents), the annual benefits summary, and tax documents.
+- **Absence Management:** All Paid Time Off (PTO) and Sick Leave requests must be registered and approved by the manager within Workday. Requests submitted via email or verbally are not accepted.
+
+## 52. Employee Data Privacy and Record Retention Policy
+The Company complies with global privacy regulations such as GDPR, CCPA, and equivalent local laws.
+- **Consent:** By signing the employment contract, the employee consents to the processing of personal data necessary for payroll, benefits, and HR administration.
+- **Retention:** Payroll and tax records are retained for 7 years. Performance and disciplinary records are retained for 5 years after separation. Unsuccessful candidate resumes are deleted after 12 months.
+- **Monitoring:** The use of corporate email, Slack, and company devices is subject to monitoring for compliance and security purposes. There is no expectation of privacy on these systems.
+
+## 53. Detailed Formal Grievance and Complaint Procedure
+This protocol ensures an impartial investigation of all complaints that do not involve harassment (covered in Section 8).
+1. **Formal Submission:** The complaint must be submitted in writing to the Human Resources Manager or the Department Director. It must include specific dates, names, and a detailed description of the incident.
+2. **Investigation Timeline:** HR will acknowledge receipt of the complaint within 2 business days and initiate a full fact-finding investigation within 5 business days.
+3. **Right to Representation:** The employee has the right to a non-legal representative (e.g., a peer or an ERG member) during investigation interviews.
+4. **Final Decision:** HR will issue a written final decision to the complainant within 15 business days after concluding the investigation.
+
+## 54. Flexible Work Arrangements and Compressed Schedule Agreements
+The Company may approve alternative work arrangements to support work-life balance.
+- **Flexible Schedule:** Employees may request to flex their start/end time by +/- 1 hour (e.g., 8:00 to 17:00 or 10:00 to 19:00), provided they cover the core collaboration hours (10:00 to 15:00).
+- **Compressed Schedule Eligibility:** Only employees with above-average performance and 12 months of tenure are eligible to request a compressed schedule (e.g., 4 days of 10 hours). All approvals are quarterly and not guaranteed.
+- **Agreement Termination:** The Company reserves the right to terminate any flexible work agreement with 14 days' notice if it negatively impacts team performance or operational needs.
+
+## 55. Relocation and Internal Transfer Policy
+HR manages all geographic and departmental talent transfers.
+- **Company-Initiated Transfer:** The Company will cover 100% of approved relocation costs (moving, travel, 30-day temporary housing, and spouse job search assistance) to meet a business need.
+- **Employee-Initiated Transfer:** An employee may request an internal transfer to another location after 18 months in their current role. The Company will only grant a fixed relocation stipend of $5,000 USD, with the remaining costs being the employee's responsibility.
+- **Salary Adjustment:** Salary will be adjusted to the new geographic location's pay band, which may result in an increase or decrease in base pay to reflect the local Cost of Living (COL).
+
+## 56. Talent Retention Procedures and Counter-Offers
+HR seeks to retain high-performing employees.
+- **Counter-Offer Criteria:** Counter-offers will only be considered for employees who: 1) Have an "Significantly Exceeds" or "Exceptional" rating in their last two reviews, 2) Are below the 50th percentile of their salary band, and 3) Are identified as critical talent by the Executive Committee.
+- **Exclusion:** Counter-offers will not be issued for retention to employees with recent disciplinary history (last 18 months). The final decision rests with the CFO and the Head of HR.
+
+## 57. Company Vehicle Usage and Fleet Safety Policy
+Vehicles may only be used by authorized employees for strictly business purposes.
+- **Maintenance:** The employee is responsible for daily maintenance and immediately reporting any damage. The Company covers all fuel and insurance costs.
+- **Personal Use:** Personal use is strictly prohibited, except for commuting from home to the office if the vehicle is assigned. Use by family members is prohibited.
+
+## 58. Human Resources Review and Calibration Committees
+Talent management and compensation are reviewed through formal committees.
+- **Calibration Committee:** Meets twice a year (June and December) to ensure fairness in performance ratings and prevent departmental bias.
+- **Compensation Committee:** Reviews and approves all salary increase and bonus proposals that exceed 10% of the salary band midpoint.
+- **Succession Planning Committee:** Annually identifies and develops high-potential (HiPo) employees for key leadership roles, with development plans overseen by the Head of HR.
+
+## 59. Drug and Alcohol Policy in the Workplace
+The Company maintains a drug and alcohol-free workplace.
+- **Testing:** The Company reserves the right to conduct drug and alcohol testing on employees in safety-sensitive roles or following a workplace accident.
+- **Consumption:** Working under the influence of any substance that impairs safe performance is prohibited. Alcohol consumption is only permitted at approved corporate events and must be moderate.
+
+## 60. Sustainability and Corporate Social Responsibility (CSR) Guidelines
+HR facilitates employee participation in CSR initiatives.
+- **Volunteering:** Employees receive 2 paid days off per year to participate in volunteer activities of their choice, subject to prior NGO approval.
+- **Coordination:** HR coordinates the CSR committee and organizes annual fundraising events and donation drives.
+
+## 61. HR Information System (HRIS) Usage and Self-Service
+The Company's official talent management and employee administration system is **Workday**. All employees must be familiar with its functions.
+- **Self-Service Obligations:** It is the employee’s responsibility to keep their personal and emergency contact information (address, phone number, marital status, benefit beneficiaries) up-to-date in the Workday portal.
+- **Document Access:** Employees must use Workday to download pay stubs, W-2 forms (or local equivalents), the annual benefits summary, and tax documents.
+- **Absence Management:** All Paid Time Off (PTO) and Sick Leave requests must be registered and approved by the manager within Workday. Requests submitted via email or verbally are not accepted.
+
+## 62. Employee Data Privacy and Record Retention Policy
+The Company complies with global privacy regulations such as GDPR, CCPA, and equivalent local laws.
+- **Consent:** By signing the employment contract, the employee consents to the processing of personal data necessary for payroll, benefits, and HR administration.
+- **Retention:** Payroll and tax records are retained for 7 years. Performance and disciplinary records are retained for 5 years after separation. Unsuccessful candidate resumes are deleted after 12 months.
+- **Monitoring:** The use of corporate email, Slack, and company devices is subject to monitoring for compliance and security purposes. There is no expectation of privacy on these systems.
+
+## 63. Detailed Formal Grievance and Complaint Procedure
+This protocol ensures an impartial investigation of all complaints that do not involve harassment (covered in Section 8).
+1. **Formal Submission:** The complaint must be submitted in writing to the Human Resources Manager or the Department Director. It must include specific dates, names, and a detailed description of the incident.
+2. **Investigation Timeline:** HR will acknowledge receipt of the complaint within 2 business days and initiate a full fact-finding investigation within 5 business days.
+3. **Right to Representation:** The employee has the right to a non-legal representative (e.g., a peer or an ERG member) during investigation interviews.
+4. **Final Decision:** HR will issue a written final decision to the complainant within 15 business days after concluding the investigation.
+
+## 64. Flexible Work Arrangements and Compressed Schedule Agreements
+The Company may approve alternative work arrangements to support work-life balance.
+- **Flexible Schedule:** Employees may request to flex their start/end time by +/- 1 hour (e.g., 8:00 to 17:00 or 10:00 to 19:00), provided they cover the core collaboration hours (10:00 to 15:00).
+- **Compressed Schedule Eligibility:** Only employees with above-average performance and 12 months of tenure are eligible to request a compressed schedule (e.g., 4 days of 10 hours). All approvals are quarterly and not guaranteed.
+- **Agreement Termination:** The Company reserves the right to terminate any flexible work agreement with 14 days' notice if it negatively impacts team performance or operational needs.
+
+## 65. Relocation and Internal Transfer Policy
+HR manages all geographic and departmental talent transfers.
+- **Company-Initiated Transfer:** The Company will cover 100% of approved relocation costs (moving, travel, 30-day temporary housing, and spouse job search assistance) to meet a business need.
+- **Employee-Initiated Transfer:** An employee may request an internal transfer to another location after 18 months in their current role. The Company will only grant a fixed relocation stipend of $5,000 USD, with the remaining costs being the employee's responsibility.
+- **Salary Adjustment:** Salary will be adjusted to the new geographic location's pay band, which may result in an increase or decrease in base pay to reflect the local Cost of Living (COL).
+
+(End of HR Handbook – Last updated: December 2025)

@@ -1,0 +1,394 @@
+# FINANCE AND EXPENSE POLICY 2025
+
+## 1. Expense Reimbursement Policy
+All business expenses must be:
+- Ordinary and necessary
+- Pre-approved when >$500
+- Submitted within 30 days of incurrence
+
+Platform: Expensify (mandatory)
+
+## 2. Travel Policy
+- Airfare: economy class (business class allowed only for flights >8 hours)
+- Booking: through Concur or direct with approved vendors
+- Hotels: maximum $250/night in major cities, $180 elsewhere
+- Meals: $75 daily per diem (no receipts required under this amount)
+- Ground transport: Uber/Lyft Business profile or mileage at IRS rate ($0.67/mile in 2025)
+
+## 3. Corporate Card Program
+- Issued to frequent travelers and managers.
+- Personal use strictly prohibited.
+- Monthly statements due by the 10th.
+- Late submission = card suspension.
+- Disputed charges: must be reported within 60 days.
+
+## 4. Non-Reimbursable Expenses
+- Alcohol (except client entertainment with pre-approval)
+- Traffic fines, parking tickets
+- First-class airfare
+- Spouse/partner travel
+- Dry cleaning (unless on trip >5 days)
+
+## 5. Payroll and Compensation
+- Pay schedule: bi-weekly, direct deposit only.
+- Timesheets due Monday by 10 AM for previous pay period.
+- Overtime: pre-approved only, 1.5x rate after 40 hours.
+- Annual bonus: paid February, based on company and individual performance.
+
+## 6. Invoice and Vendor Payments
+- Net 30 terms standard.
+- Early payment discount: 2% if paid within 10 days.
+- All new vendors require W-9 and banking setup.
+- Invoices >$5,000 require dual approval.
+
+## 7. Budget and Purchase Orders
+- All purchases >$1,000 require PO.
+- Budget owners notified of variances >10%.
+- Capital expenses >$5,000 require CFO approval.
+
+## 8. Client Entertainment
+- Maximum $100 per person.
+- Requires client name and business purpose.
+- Alcohol allowed with manager pre-approval.
+
+## 9. Reimbursement Timeline
+- Submitted and approved expenses paid on next payroll cycle.
+- International expenses: converted at actual credit card rate.
+
+## 10. Financial Reporting and Close Schedule
+The company adheres to US GAAP (Generally Accepted Accounting Principles) for all external reporting.
+- **Monthly Close:** The general ledger must be closed by the **5th business day** following the end of the month (e.g., May 5th for April).
+- **Quarterly Reporting:** Internal management reports are issued by the 10th business day.
+- **Year-End Close:** Final books close on January 15th for the previous fiscal year. All accruals and adjustments must be submitted by January 10th.
+- **Materiality Threshold:** Any adjustment or accrual entry exceeding **$10,000 USD** is considered material and requires the Chief Accounting Officer's (CAO) review and sign-off.
+
+## 11. Accounts Receivable (AR) and Revenue Recognition (ASC 606)
+This governs how and when the company records sales revenue.
+- **Invoicing Timeline:** Invoices must be sent to the customer within 48 hours of service delivery or product shipment.
+- **Payment Terms:** Standard customer payment terms are Net 30 days. Exceptions (e.g., Net 45 or Net 60) must be approved by the VP of Finance.
+- **Doubtful Accounts:** A provision for doubtful accounts is required for all outstanding balances over 90 days. The provision rate is set at **50%** of the outstanding balance.
+- **Revenue Recognition:** Revenue for SaaS contracts is recognized linearly over the subscription period. Upfront implementation fees are deferred and amortized over the expected customer relationship period (typically 36 months).
+
+## 12. Accounts Payable (AP) Internal Controls
+AP ensures all payments are legitimate and properly authorized.
+- **Three-Way Match:** All payments for physical goods must match the Purchase Order (PO), the receiving report, and the vendor invoice (Three-Way Match).
+- **Check Runs:** Check disbursements are executed bi-weekly (Wednesdays). Wire transfers require the CAO's approval regardless of amount.
+- **Segregation of Duties (SoD):** The employee who processes the vendor invoice cannot be the same employee who approves the final payment batch. SoD violations are flagged for internal audit review.
+
+## 13. Fixed Assets and Capitalization Policy
+This defines what expenditures are recorded as assets rather than expenses.
+- **Capitalization Threshold:** Any individual purchase of tangible property (equipment, machinery, IT hardware) with a useful life exceeding one year and a cost exceeding **$2,500 USD** must be capitalized.
+- **Depreciation:** Fixed assets are depreciated using the Straight-Line Method over the asset’s estimated useful life (e.g., 5 years for computers, 7 years for office furniture).
+- **Software Capitalization:** Internal-use software development costs are capitalized only after technological feasibility has been established, according to ASC 350.
+
+## 14. Budgeting and Forecasting Process
+All departments must adhere to strict budgetary cycles.
+- **Annual Budget:** Budget submission is mandatory by October 31st each year. Budgets must be submitted using the bottom-up methodology.
+- **Forecasting:** Monthly rolling forecasts are required by the 15th of each month, projecting performance for the next three quarters.
+- **Reconciliation:** All actual results must be reconciled against the approved budget monthly, with detailed variance explanations required for any line item exceeding a **15% variance** from the budgeted amount.
+
+## 15. Debt and Treasury Management
+Governs the handling of company cash and debt obligations.
+- **Investment Policy:** Surplus cash must be invested only in highly liquid, low-risk instruments (e.g., US Treasury Bills, Money Market funds) with a minimum A- rating.
+- **Credit Lines:** All drawdowns on the corporate credit line must be approved by the Treasurer and the CFO.
+- **Foreign Exchange Risk:** Treasury is responsible for hedging significant foreign currency exposures (net exposure exceeding **$1 million USD**) using forward contracts to minimize P&L volatility.
+
+## 16. Internal Audit and Compliance (SOX)
+The financial integrity of the company relies on strong internal controls.
+- **SOX Compliance:** The company adheres to the Sarbanes-Oxley Act (SOX). All finance employees must complete annual SOX training.
+- **Control Testing:** Internal Audit performs quarterly testing of all Key Financial Controls (KFCs) related to the Order-to-Cash and Procure-to-Pay cycles.
+- **Deficiencies:** Control deficiencies must be remediated within 90 days. A material weakness requires immediate reporting to the Audit Committee.
+
+## 17. Tax Compliance and Reporting
+Ensures accurate and timely payment of all local, state, federal, and international taxes.
+- **VAT/Sales Tax:** Finance is responsible for calculating and remitting VAT/Sales Tax based on the tax jurisdiction of the customer's shipping address.
+- **Tax Audits:** All communication with external tax authorities (IRS, HMRC, etc.) must be routed exclusively through the VP of Tax and Legal Counsel. Employees must not correspond directly with tax authorities.
+- **Transfer Pricing:** All intercompany transactions (e.g., service fees between US and EU subsidiaries) must comply with established transfer pricing documentation to satisfy local tax laws.
+
+## 18. Expense Audit Procedures
+Finance conducts audits to prevent fraud and ensure policy adherence.
+- **Random Audit:** 10% of all employee expense reports are selected for a random, in-depth audit monthly.
+- **Compliance Audit:** Expense reports flagged by the system for specific violations (e.g., duplicate receipts, expenses near the maximum limit) are subject to a mandatory, 100% audit.
+- **Consequence:** Non-compliant expenses will be denied, and habitual offenders may be subject to disciplinary action by HR, initiated by the Finance Controller.
+
+## 19. Insurance and Risk Management
+Finance manages corporate insurance policies to mitigate financial loss.
+- **Liability Coverage:** The company maintains General Liability, Director and Officer (D&O) insurance, and Cyber Insurance. The specific policy limits are confidential.
+- **Claim Reporting:** Any event that could result in a significant insurance claim (e.g., major property damage, lawsuit) must be reported to the Risk Management team within 24 hours.
+
+## 20. Legal Fees and Litigation Expense Management
+All external legal expenditures must be managed through the Finance department.
+- **Invoicing:** All external legal firms must submit itemized invoices detailing hours worked and task codes. Block billing is prohibited.
+- **Accruals:** Finance is responsible for quarterly accruals of estimated litigation defense costs based on input from the Legal Department.
+- **Authorization:** New litigation spending exceeding $20,000 USD must be approved by both the General Counsel and the CFO.
+
+## 21. Intercompany Transactions and Transfer Pricing
+This governs financial transactions between the Company's various international subsidiaries.
+- **Arm's Length Principle:** All intercompany sales of goods, services, and intellectual property (IP) must be priced using the Arm's Length Principle to reflect market rates, consistent with OECD guidelines.
+- **Documentation:** Annual Transfer Pricing documentation (Master File and Local Files) must be prepared by the external tax consultant and approved by the VP of Tax by May 31st.
+- **Settlement:** All intercompany balances must be settled quarterly, or at minimum, semi-annually, to avoid undue build-up of unhedged exposure.
+
+## 22. Consolidations and Statutory Reporting
+Governs the process for combining the financial results of all subsidiaries.
+- **Consolidation System:** The official consolidation platform is Oracle Hyperion Financial Management (HFM). All subsidiary finance teams must upload their trial balances by the 3rd business day of the month.
+- **Eliminations:** The Corporate Accounting team is responsible for performing all intercompany elimination entries (e.g., intercompany sales, intercompany debt) to prevent double counting in the consolidated financial statements.
+- **Statutory Audit:** Local statutory financial statements for non-US subsidiaries must be finalized and audited within six months of the fiscal year-end, as required by local jurisdiction laws.
+
+## 23. Cash Flow Forecasting and Working Capital Management
+Ensures adequate liquidity for operations and strategic investments.
+- **13-Week Forecast:** The Treasury team must maintain a rolling 13-week detailed cash flow forecast, updated weekly, projecting all major inflows (AR collections) and outflows (AP, payroll).
+- **Target Cash Balance:** The minimum target cash balance across all corporate bank accounts is set at the equivalent of **90 days of operational expenses**.
+- **Working Capital Targets:** All departments are targeted to maintain an Accounts Receivable Days Sales Outstanding (DSO) below 45 days and an Inventory Turns ratio above 6.
+
+## 24. Compliance and Anti-Bribery Policy (FCPA/UK Bribery Act)
+Finance personnel must ensure strict compliance with anti-corruption laws.
+- **Prohibition:** No employee or third-party intermediary (agent, consultant, distributor) may offer or provide anything of value to a foreign government official to obtain or retain business.
+- **Due Diligence:** Enhanced due diligence must be performed on all third-party vendors operating in high-risk foreign jurisdictions. This process is managed by the Legal and Compliance departments.
+- **Books and Records:** Financial records must accurately and fairly reflect the Company's transactions. Falsifying records to conceal improper payments is strictly forbidden.
+
+## 25. Capital Expenditure (CAPEX) Approval Matrix
+Detailed steps for approving large investments in long-term assets.
+1. **Initial Request:** Submission of a Capital Expenditure Request (CER) form detailing the project scope, ROI (Return on Investment), and Net Present Value (NPV) calculation.
+2. **Department Review:** Approval by the requesting Department Head (e.g., CTO for IT CAPEX).
+3. **Finance Review:** The Corporate Planning team reviews the ROI/NPV model to confirm its financial soundness.
+4. **Final Approval:** CAPEX >$250,000 requires unanimous approval by the Executive Leadership Team (ELT). CAPEX >$1,000,000 requires Board of Directors approval.
+
+## 26. Lease Accounting (ASC 842 / IFRS 16)
+Governs the financial reporting of operating and finance leases.
+- **Identification:** All contracts, regardless of term, must be reviewed by the Accounting team to determine if they contain an embedded lease (e.g., long-term equipment rentals, property leases).
+- **Capitalization:** All qualifying leases must be recognized on the Balance Sheet as a Right-of-Use (ROU) Asset and a corresponding Lease Liability.
+- **Threshold:** The minimum threshold for ROU Asset recognition is a lease term greater than 12 months. Short-term leases are expensed as incurred.
+
+## 27. Internal Controls Testing and Documentation
+Detailed responsibilities for maintaining control environments.
+- **Control Owners:** Each key financial process (e.g., Payroll, Inventory Valuation, Revenue Recognition) must have a designated control owner responsible for documenting the control design and executing the control.
+- **Walkthroughs:** Internal Audit conducts annual walkthroughs with control owners to verify that controls are designed effectively and operating correctly (SOX testing).
+- **Remediation:** All identified control deficiencies (even minor ones) must have a formal remediation plan documented in the compliance system and completed within the quarter.
+
+## 28. Business Continuity Planning (Finance Perspective)
+Ensures the Finance function can continue operations during a disaster.
+- **Critical Functions:** Identified critical functions include Payroll processing, Accounts Payable, and Cash Management.
+- **Backup Site:** Key finance personnel must be prepared to operate from a designated off-site location with access to essential systems (SAP, Oracle, bank portals) within 48 hours of a declared disaster.
+- **External Dependencies:** Treasury maintains relationships with multiple banks to ensure payments can be processed even if the primary banking partner is unavailable.
+
+## 29. Equity and Stock-Based Compensation Accounting
+Governs the reporting of employee stock options and restricted stock units (RSUs).
+- **Fair Value:** Stock-based compensation must be measured at fair value on the grant date using the Black-Scholes or Binomial lattice model.
+- **Expense Recognition:** The expense is recognized over the vesting period (typically 4 years) on a straight-line basis.
+- **Forfeitures:** Expected forfeitures are estimated at the grant date, and the estimate is reviewed and adjusted annually. All accounting entries for equity are managed solely by the Corporate Accounting team.
+
+## 30. Tax Provision and Quarterly Estimation
+Ensures accurate liability for corporate income taxes.
+- **Tax Provision:** The Quarterly Tax Provision (ASC 740) must be calculated and reviewed by the VP of Tax before the quarterly financial statements are released.
+- **Valuation Allowance:** Management must assess the realizability of Deferred Tax Assets (DTAs) and determine if a Valuation Allowance is necessary, based on future taxable income forecasts.
+- **Audit Support:** Finance must maintain detailed workpapers supporting all permanent and temporary tax differences to support the annual external tax audit.
+
+## 31. Expense Reimbursement Policy
+All business expenses must be:
+- Ordinary and necessary
+- Pre-approved when >$500
+- Submitted within 30 days of incurrence
+
+Platform: Expensify (mandatory)
+
+## 32. Travel Policy
+- Airfare: economy class (business class allowed only for flights >8 hours)
+- Booking: through Concur or direct with approved vendors
+- Hotels: maximum $250/night in major cities, $180 elsewhere
+- Meals: $75 daily per diem (no receipts required under this amount)
+- Ground transport: Uber/Lyft Business profile or mileage at IRS rate ($0.67/mile in 2025)
+
+## 33. Corporate Card Program
+- Issued to frequent travelers and managers.
+- Personal use strictly prohibited.
+- Monthly statements due by the 10th.
+- Late submission = card suspension.
+- Disputed charges: must be reported within 60 days.
+
+## 34. Non-Reimbursable Expenses
+- Alcohol (except client entertainment with pre-approval)
+- Traffic fines, parking tickets
+- First-class airfare
+- Spouse/partner travel
+- Dry cleaning (unless on trip >5 days)
+
+## 35. Payroll and Compensation
+- Pay schedule: bi-weekly, direct deposit only.
+- Timesheets due Monday by 10 AM for previous pay period.
+- Overtime: pre-approved only, 1.5x rate after 40 hours.
+- Annual bonus: paid February, based on company and individual performance.
+
+## 36. Invoice and Vendor Payments
+- Net 30 terms standard.
+- Early payment discount: 2% if paid within 10 days.
+- All new vendors require W-9 and banking setup.
+- Invoices >$5,000 require dual approval.
+
+## 37. Budget and Purchase Orders
+- All purchases >$1,000 require PO.
+- Budget owners notified of variances >10%.
+- Capital expenses >$5,000 require CFO approval.
+
+## 38. Client Entertainment
+- Maximum $100 per person.
+- Requires client name and business purpose.
+- Alcohol allowed with manager pre-approval.
+
+## 39. Reimbursement Timeline
+- Submitted and approved expenses paid on next payroll cycle.
+- International expenses: converted at actual credit card rate.
+
+## 40. Financial Reporting and Close Schedule
+The company adheres to US GAAP (Generally Accepted Accounting Principles) for all external reporting.
+- **Monthly Close:** The general ledger must be closed by the **5th business day** following the end of the month (e.g., May 5th for April).
+- **Quarterly Reporting:** Internal management reports are issued by the 10th business day.
+- **Year-End Close:** Final books close on January 15th for the previous fiscal year. All accruals and adjustments must be submitted by January 10th.
+- **Materiality Threshold:** Any adjustment or accrual entry exceeding **$10,000 USD** is considered material and requires the Chief Accounting Officer's (CAO) review and sign-off.
+
+## 41. Accounts Receivable (AR) and Revenue Recognition (ASC 606)
+This governs how and when the company records sales revenue.
+- **Invoicing Timeline:** Invoices must be sent to the customer within 48 hours of service delivery or product shipment.
+- **Payment Terms:** Standard customer payment terms are Net 30 days. Exceptions (e.g., Net 45 or Net 60) must be approved by the VP of Finance.
+- **Doubtful Accounts:** A provision for doubtful accounts is required for all outstanding balances over 90 days. The provision rate is set at **50%** of the outstanding balance.
+- **Revenue Recognition:** Revenue for SaaS contracts is recognized linearly over the subscription period. Upfront implementation fees are deferred and amortized over the expected customer relationship period (typically 36 months).
+
+## 42. Accounts Payable (AP) Internal Controls
+AP ensures all payments are legitimate and properly authorized.
+- **Three-Way Match:** All payments for physical goods must match the Purchase Order (PO), the receiving report, and the vendor invoice (Three-Way Match).
+- **Check Runs:** Check disbursements are executed bi-weekly (Wednesdays). Wire transfers require the CAO's approval regardless of amount.
+- **Segregation of Duties (SoD):** The employee who processes the vendor invoice cannot be the same employee who approves the final payment batch. SoD violations are flagged for internal audit review.
+
+## 43. Fixed Assets and Capitalization Policy
+This defines what expenditures are recorded as assets rather than expenses.
+- **Capitalization Threshold:** Any individual purchase of tangible property (equipment, machinery, IT hardware) with a useful life exceeding one year and a cost exceeding **$2,500 USD** must be capitalized.
+- **Depreciation:** Fixed assets are depreciated using the Straight-Line Method over the asset’s estimated useful life (e.g., 5 years for computers, 7 years for office furniture).
+- **Software Capitalization:** Internal-use software development costs are capitalized only after technological feasibility has been established, according to ASC 350.
+
+## 44. Budgeting and Forecasting Process
+All departments must adhere to strict budgetary cycles.
+- **Annual Budget:** Budget submission is mandatory by October 31st each year. Budgets must be submitted using the bottom-up methodology.
+- **Forecasting:** Monthly rolling forecasts are required by the 15th of each month, projecting performance for the next three quarters.
+- **Reconciliation:** All actual results must be reconciled against the approved budget monthly, with detailed variance explanations required for any line item exceeding a **15% variance** from the budgeted amount.
+
+## 45. Debt and Treasury Management
+Governs the handling of company cash and debt obligations.
+- **Investment Policy:** Surplus cash must be invested only in highly liquid, low-risk instruments (e.g., US Treasury Bills, Money Market funds) with a minimum A- rating.
+- **Credit Lines:** All drawdowns on the corporate credit line must be approved by the Treasurer and the CFO.
+- **Foreign Exchange Risk:** Treasury is responsible for hedging significant foreign currency exposures (net exposure exceeding **$1 million USD**) using forward contracts to minimize P&L volatility.
+
+## 46. Internal Audit and Compliance (SOX)
+The financial integrity of the company relies on strong internal controls.
+- **SOX Compliance:** The company adheres to the Sarbanes-Oxley Act (SOX). All finance employees must complete annual SOX training.
+- **Control Testing:** Internal Audit performs quarterly testing of all Key Financial Controls (KFCs) related to the Order-to-Cash and Procure-to-Pay cycles.
+- **Deficiencies:** Control deficiencies must be remediated within 90 days. A material weakness requires immediate reporting to the Audit Committee.
+
+## 47. Tax Compliance and Reporting
+Ensures accurate and timely payment of all local, state, federal, and international taxes.
+- **VAT/Sales Tax:** Finance is responsible for calculating and remitting VAT/Sales Tax based on the tax jurisdiction of the customer's shipping address.
+- **Tax Audits:** All communication with external tax authorities (IRS, HMRC, etc.) must be routed exclusively through the VP of Tax and Legal Counsel. Employees must not correspond directly with tax authorities.
+- **Transfer Pricing:** All intercompany transactions (e.g., service fees between US and EU subsidiaries) must comply with established transfer pricing documentation to satisfy local tax laws.
+
+## 48. Expense Audit Procedures
+Finance conducts audits to prevent fraud and ensure policy adherence.
+- **Random Audit:** 10% of all employee expense reports are selected for a random, in-depth audit monthly.
+- **Compliance Audit:** Expense reports flagged by the system for specific violations (e.g., duplicate receipts, expenses near the maximum limit) are subject to a mandatory, 100% audit.
+- **Consequence:** Non-compliant expenses will be denied, and habitual offenders may be subject to disciplinary action by HR, initiated by the Finance Controller.
+
+## 49. Insurance and Risk Management
+Finance manages corporate insurance policies to mitigate financial loss.
+- **Liability Coverage:** The company maintains General Liability, Director and Officer (D&O) insurance, and Cyber Insurance. The specific policy limits are confidential.
+- **Claim Reporting:** Any event that could result in a significant insurance claim (e.g., major property damage, lawsuit) must be reported to the Risk Management team within 24 hours.
+
+## 50. Legal Fees and Litigation Expense Management
+All external legal expenditures must be managed through the Finance department.
+- **Invoicing:** All external legal firms must submit itemized invoices detailing hours worked and task codes. Block billing is prohibited.
+- **Accruals:** Finance is responsible for quarterly accruals of estimated litigation defense costs based on input from the Legal Department.
+- **Authorization:** New litigation spending exceeding $20,000 USD must be approved by both the General Counsel and the CFO.
+
+## 51. Intercompany Transactions and Transfer Pricing
+This governs financial transactions between the Company's various international subsidiaries.
+- **Arm's Length Principle:** All intercompany sales of goods, services, and intellectual property (IP) must be priced using the Arm's Length Principle to reflect market rates, consistent with OECD guidelines.
+- **Documentation:** Annual Transfer Pricing documentation (Master File and Local Files) must be prepared by the external tax consultant and approved by the VP of Tax by May 31st.
+- **Settlement:** All intercompany balances must be settled quarterly, or at minimum, semi-annually, to avoid undue build-up of unhedged exposure.
+
+## 52. Consolidations and Statutory Reporting
+Governs the process for combining the financial results of all subsidiaries.
+- **Consolidation System:** The official consolidation platform is Oracle Hyperion Financial Management (HFM). All subsidiary finance teams must upload their trial balances by the 3rd business day of the month.
+- **Eliminations:** The Corporate Accounting team is responsible for performing all intercompany elimination entries (e.g., intercompany sales, intercompany debt) to prevent double counting in the consolidated financial statements.
+- **Statutory Audit:** Local statutory financial statements for non-US subsidiaries must be finalized and audited within six months of the fiscal year-end, as required by local jurisdiction laws.
+
+## 53. Cash Flow Forecasting and Working Capital Management
+Ensures adequate liquidity for operations and strategic investments.
+- **13-Week Forecast:** The Treasury team must maintain a rolling 13-week detailed cash flow forecast, updated weekly, projecting all major inflows (AR collections) and outflows (AP, payroll).
+- **Target Cash Balance:** The minimum target cash balance across all corporate bank accounts is set at the equivalent of **90 days of operational expenses**.
+- **Working Capital Targets:** All departments are targeted to maintain an Accounts Receivable Days Sales Outstanding (DSO) below 45 days and an Inventory Turns ratio above 6.
+
+## 54. Compliance and Anti-Bribery Policy (FCPA/UK Bribery Act)
+Finance personnel must ensure strict compliance with anti-corruption laws.
+- **Prohibition:** No employee or third-party intermediary (agent, consultant, distributor) may offer or provide anything of value to a foreign government official to obtain or retain business.
+- **Due Diligence:** Enhanced due diligence must be performed on all third-party vendors operating in high-risk foreign jurisdictions. This process is managed by the Legal and Compliance departments.
+- **Books and Records:** Financial records must accurately and fairly reflect the Company's transactions. Falsifying records to conceal improper payments is strictly forbidden.
+
+## 55. Capital Expenditure (CAPEX) Approval Matrix
+Detailed steps for approving large investments in long-term assets.
+1. **Initial Request:** Submission of a Capital Expenditure Request (CER) form detailing the project scope, ROI (Return on Investment), and Net Present Value (NPV) calculation.
+2. **Department Review:** Approval by the requesting Department Head (e.g., CTO for IT CAPEX).
+3. **Finance Review:** The Corporate Planning team reviews the ROI/NPV model to confirm its financial soundness.
+4. **Final Approval:** CAPEX >$250,000 requires unanimous approval by the Executive Leadership Team (ELT). CAPEX >$1,000,000 requires Board of Directors approval.
+
+## 56. Lease Accounting (ASC 842 / IFRS 16)
+Governs the financial reporting of operating and finance leases.
+- **Identification:** All contracts, regardless of term, must be reviewed by the Accounting team to determine if they contain an embedded lease (e.g., long-term equipment rentals, property leases).
+- **Capitalization:** All qualifying leases must be recognized on the Balance Sheet as a Right-of-Use (ROU) Asset and a corresponding Lease Liability.
+- **Threshold:** The minimum threshold for ROU Asset recognition is a lease term greater than 12 months. Short-term leases are expensed as incurred.
+
+## 57. Internal Controls Testing and Documentation
+Detailed responsibilities for maintaining control environments.
+- **Control Owners:** Each key financial process (e.g., Payroll, Inventory Valuation, Revenue Recognition) must have a designated control owner responsible for documenting the control design and executing the control.
+- **Walkthroughs:** Internal Audit conducts annual walkthroughs with control owners to verify that controls are designed effectively and operating correctly (SOX testing).
+- **Remediation:** All identified control deficiencies (even minor ones) must have a formal remediation plan documented in the compliance system and completed within the quarter.
+
+## 58. Business Continuity Planning (Finance Perspective)
+Ensures the Finance function can continue operations during a disaster.
+- **Critical Functions:** Identified critical functions include Payroll processing, Accounts Payable, and Cash Management.
+- **Backup Site:** Key finance personnel must be prepared to operate from a designated off-site location with access to essential systems (SAP, Oracle, bank portals) within 48 hours of a declared disaster.
+- **External Dependencies:** Treasury maintains relationships with multiple banks to ensure payments can be processed even if the primary banking partner is unavailable.
+
+## 59. Equity and Stock-Based Compensation Accounting
+Governs the reporting of employee stock options and restricted stock units (RSUs).
+- **Fair Value:** Stock-based compensation must be measured at fair value on the grant date using the Black-Scholes or Binomial lattice model.
+- **Expense Recognition:** The expense is recognized over the vesting period (typically 4 years) on a straight-line basis.
+- **Forfeitures:** Expected forfeitures are estimated at the grant date, and the estimate is reviewed and adjusted annually. All accounting entries for equity are managed solely by the Corporate Accounting team.
+
+## 60. Tax Provision and Quarterly Estimation
+Ensures accurate liability for corporate income taxes.
+- **Tax Provision:** The Quarterly Tax Provision (ASC 740) must be calculated and reviewed by the VP of Tax before the quarterly financial statements are released.
+- **Valuation Allowance:** Management must assess the realizability of Deferred Tax Assets (DTAs) and determine if a Valuation Allowance is necessary, based on future taxable income forecasts.
+- **Audit Support:** Finance must maintain detailed workpapers supporting all permanent and temporary tax differences to support the annual external tax audit.
+
+## 61. Accounts Receivable (AR) and Revenue Recognition (ASC 606)
+This governs how and when the company records sales revenue.
+- **Invoicing Timeline:** Invoices must be sent to the customer within 48 hours of service delivery or product shipment.
+- **Payment Terms:** Standard customer payment terms are Net 30 days. Exceptions (e.g., Net 45 or Net 60) must be approved by the VP of Finance.
+- **Doubtful Accounts:** A provision for doubtful accounts is required for all outstanding balances over 90 days. The provision rate is set at **50%** of the outstanding balance.
+- **Revenue Recognition:** Revenue for SaaS contracts is recognized linearly over the subscription period. Upfront implementation fees are deferred and amortized over the expected customer relationship period (typically 36 months).
+
+## 62. Accounts Payable (AP) Internal Controls
+AP ensures all payments are legitimate and properly authorized.
+- **Three-Way Match:** All payments for physical goods must match the Purchase Order (PO), the receiving report, and the vendor invoice (Three-Way Match).
+- **Check Runs:** Check disbursements are executed bi-weekly (Wednesdays). Wire transfers require the CAO's approval regardless of amount.
+- **Segregation of Duties (SoD):** The employee who processes the vendor invoice cannot be the same employee who approves the final payment batch. SoD violations are flagged for internal audit review.
+
+## 63. Fixed Assets and Capitalization Policy
+This defines what expenditures are recorded as assets rather than expenses.
+- **Capitalization Threshold:** Any individual purchase of tangible property (equipment, machinery, IT hardware) with a useful life exceeding one year and a cost exceeding **$2,500 USD** must be capitalized.
+- **Depreciation:** Fixed assets are depreciated using the Straight-Line Method over the asset’s estimated useful life (e.g., 5 years for computers, 7 years for office furniture).
+- **Software Capitalization:** Internal-use software development costs are capitalized only after technological feasibility has been established, according to ASC 350.
+
+## 64. Budgeting and Forecasting Process
+All departments must adhere to strict budgetary cycles.
+- **Annual Budget:** Budget submission is mandatory by October 31st each year. Budgets must be submitted using the bottom-up methodology.
+- **Forecasting:** Monthly rolling forecasts are required by the 15th of each month, projecting performance for the next three quarters.
+- **Reconciliation:** All actual results must be reconciled against the approved budget monthly, with detailed variance explanations required for any line item exceeding a **15% variance** from the budgeted amount.
+
+(End of Finance Policy – Last updated: December 2025)

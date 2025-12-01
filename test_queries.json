@@ -1,0 +1,15 @@
+[
+  {"query": "What support does the company provide for relocation?", "expected": "hr"},
+  {"query": "What should I do if my company laptop is lost or stolen?", "expected": "tech"},
+  {"query": "What is the daily meal per diem limit for employees on business travel?", "expected": "finance"},
+  {"query": "Which platform must employees use to submit expense reports?", "expected": "finance"},
+  {"query": "How do I submit a referral for the employee referral program?", "expected": "hr"},
+  {"query": "What is the minimum password requirement for company accounts?", "expected": "tech"},
+  {"query": "When do new hires start accruing PTO?", "expected": "hr"},
+  {"query": "What is the capitalization threshold for fixed assets?", "expected": "finance"},
+  {"query": "Who do I report a phishing email to?", "expected": "tech"},
+  {"query": "How do I request ergonomic workspace assessment?", "expected": "hr"},
+  {"query": "How can I contact de boss in Finance?", "expected": "finance (edge case, answer not included in docs"},
+  {"query": "I forgot my Windows password", "expected": "tech (edge case, answer not included in docs)"} ,
+  {"query": "Whats the meal today?", "expected": "UNKNOWN (edge case, not included in any area"}
+]
