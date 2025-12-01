@@ -63,23 +63,31 @@ Final Answer + Trace URL + Quality Score
 ## Repository Structure
 
 multi-agent-support-router/
-├── README.md                          ← You're reading it
-├── requirements.txt                   ← project packages
-├── .env.example                       ← Envs template
-├── test_queries.json                  ← Real test cases with expected intent
+├── README.md                       ← This file
+├── requirements.txt                ← Pinned, stable dependencies
+├── .env.example                    ← Never commit real keys!
+├── test_queries.json               ← 12 real test cases
+├── langfuse_screenshots/           ← Proof of full observability
+│   ├── trace_example_1.png
+│   ├── trace_example_2.png
+│   ├── scores_dashboard.png
+│   └── evaluator_in_action.png
 ├── src/
-│   └── multi_agent_system.py          ← Main executable (run with python -m src.multi_agent_system)
+│   ├── multi_agent_system.py       ← Main entry point
 │   └── agents/
-│       ├── orchestrator.py            ← Intent classification
-│       ├── hr_agent.py                ← RAG chain for HR
-│       ├── tech_agent.py              ← RAG chain for Tech Support
-│       ├── finance_agent.py           ← RAG chain for Finance
-│       └── evaluator.py               ← Bonus: quality scoring agent
+│       ├── orchestrator.py
+│       ├── hr_agent.py
+│       ├── tech_agent.py
+│       ├── finance_agent.py
+│       └── evaluator.py            ← Bonus feature
 ├── data/
-│   ├── hr_docs/Company_Employee_Handbook_2025.txt
-│   ├── tech_docs/IT_Policies_and_Procedures_2025.txt
-│   └── finance_docs/Finance_and_Expense_Policy_2025.txt
-└── vectorstores/                  ← Auto-created FAISS indexes (persistent)
+│   ├── hr_docs/
+│   │   └── Company_Employee_Handbook_2025.txt     → ~62 chunks
+│   ├── tech_docs/
+│   │   └── IT_Policies_and_Procedures_2025.txt    → ~58 chunks
+│   └── finance_docs/
+│       └── Finance_and_Expense_Policy_2025.txt    → ~55 chunks
+└── vectorstores/                   ← Auto-created FAISS indexes (gitignored)
 
 
 ---
